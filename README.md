@@ -1,2 +1,1 @@
-# selfbalancing_bot
-Deep Reinforcement Learning on turtle-bot 
+# ASYNCHRONUS DEEP Q-NETWORK WITH EXPERIENCE REPLY
