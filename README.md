@@ -5,6 +5,7 @@
 ##### Installation and Setup:
 ```
 git clone https://github.com/Srini-Rohan/selfbalancing_bot
+cd gym_robotics
 pip install -e .
 ```
 ##### Execution:
