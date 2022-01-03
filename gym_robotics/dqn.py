@@ -70,7 +70,6 @@ class DQN():
     def train_model(self):
         if len(self.memory) < self.train_start:
             return
-        target = self.model.predict(state)[0]
         batch_size=self.batch_size
         mini_batch = random.sample(self.memory, batch_size)
         update_input = np.zeros((batch_size, self.state_size))
